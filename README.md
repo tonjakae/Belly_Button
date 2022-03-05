@@ -22,7 +22,7 @@ Software: VS Code, Javascript (ECMAScript 6), Plotly, Bootstrap, d3, HTML
 ![image](https://user-images.githubusercontent.com/87340105/156867780-ff5445c0-c7e8-4e7a-a92a-b9095a9c8244.png)
 
 #### Deliverable 4 - Customize the Dashboard
-* I added an image to the jumbotron. [link]("https://images.wisegeek.com/blue-bacteria-with-white-background.jpg")
+* I added an image to the jumbotron. [Click Here](https://images.wisegeek.com/blue-bacteria-with-white-background.jpg)
 * Add background color or a variety of compatible colors to the webpage.
 * Use a custom font with contrast for the colors.
 ## Results
