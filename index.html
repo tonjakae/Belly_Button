@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Greek gods</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-responsive.css">
 </head>
-<body>
-    <div id="plot"></div>
-    <script src="data.js"></script>
-    <script src="plots.js"></script>
+
+<body style="background-color: rgb(78, 131, 211);">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 jumbotron text-center" style="background-image: url(https://images.wisegeek.com/blue-bacteria-with-white-background.jpg
+      ); background-size: 100%; color:black" >
+        <h1 style="font-family: serif; color: #21262b"><b>Belly Button Biodiversity Dashboard T.W.</b></h1>
+        <p><b>USE THE INTERACTIVE CHARTS BELOW TO EXPLORE THE DATASET</b></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-4">
+        <div class="well" style="background-color: #4781b4; color: white; border-color: #4781b4">
+          <h4>Test Subject<br>ID No.:</h4>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" style="color: black"; onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-xs-8">
+        <div id="bar"></div>
+      </div>
+      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+        <div id="gauge"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-md-12" style="margin-top: 20pt"></div>
+  </div>
+  <div class ="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-md-12" style="margin-top: 20pt"></div>
+  </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="charts.js"></script>
+
 </body>
+
 </html>
