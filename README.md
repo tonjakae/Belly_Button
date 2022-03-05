@@ -29,4 +29,4 @@ Software: VS Code, Javascript (ECMAScript 6), Plotly, Bootstrap, d3, HTML
 ![image](https://user-images.githubusercontent.com/87340105/156868053-f2b231c0-a30b-4c22-8ff1-b6f9dd09b46a.png)
 
 ## Results
-The belly button biodiversity dashboard can be found at https://tonjakae.github.io/Belly_Button/ Creating the dashboard was completed in six major steps as follows.
+The belly button biodiversity dashboard can be found at https://tonjakae.github.io/Belly_Button/ 
