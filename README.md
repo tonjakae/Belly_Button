@@ -13,4 +13,4 @@ Data Source: samples.json </br>
 Software: VS Code, Javascript (ECMAScript 6), Plotly, Bootstrap, d3, HTML
 
 ## Results
-The belly button biodiversity dashboard can be found at https://tonjakae.github.io/Belly_Button_Biodiversity/.  Creating the dashboard was completed in six major steps as follows.
+The belly button biodiversity dashboard can be found at https://tonjakae.github.io/Belly_Button/ Creating the dashboard was completed in six major steps as follows.
