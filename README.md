@@ -23,7 +23,7 @@ Software: VS Code, Javascript (ECMAScript 6), Plotly, Bootstrap, d3, HTML
 
 #### Deliverable 4 - Customize the Dashboard
 * I added an image to the jumbotron. [Click Here](https://images.wisegeek.com/blue-bacteria-with-white-background.jpg)
-* Add background color or a variety of compatible colors to the webpage.
-* Use a custom font with contrast for the colors.
+* I added background color and a variety of compatible colors to the webpage.
+* I used a custom font with contrast for the colors.
 ## Results
 The belly button biodiversity dashboard can be found at https://tonjakae.github.io/Belly_Button/ Creating the dashboard was completed in six major steps as follows.
